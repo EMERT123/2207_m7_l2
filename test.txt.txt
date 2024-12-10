@@ -1,0 +1,10 @@
+game.Players.PlayerAdded:Connect(Function(player)
+local folder = Instance.new("Folder")
+folder.Name = "leaderstats"
+folder.Parent = player
+local money = Instance.new("IntValue")
+money.Name = "Para"
+money.Parent = folder
+money.Value = 0
+
+This is mah masterpiece👌
